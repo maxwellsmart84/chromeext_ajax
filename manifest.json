@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting Data From Somwhere",
+  "description": "This is going to pull Bulls",
+  "version": "1.0",
+
+  "homepage_url": "http://reddit.com/r/chicagobulls",
+  "permissions": [
+    "http://reddit.com/r/*"
+  ],
+  "browser_action": {
+    "default_icon": "bulls.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
